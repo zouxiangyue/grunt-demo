@@ -1,0 +1,33 @@
+{
+  "name": "grunt-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-less": "^0.1.7",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-contrib-less": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.0.3",
+    "grunt-mocha-cli": "^4.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouxiangyue/grunt-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zouxiangyue/grunt-demo/issues"
+  },
+  "homepage": "https://github.com/zouxiangyue/grunt-demo#readme"
+}
