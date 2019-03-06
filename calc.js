@@ -1,3 +1,5 @@
+
+
 function rectangle(){
   return{
     'perimeter':function(w,h){
