@@ -7,16 +7,17 @@
     "chai": "^4.2.0",
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-contrib-less": "^2.0.0",
-    "grunt-less": "^0.1.7",
-    "grunt-htmlhint": "^0.9.13",
     "grunt-eslint": "^21.0.0",
-    "grunt-mocha-cli": "^4.0.0",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-less": "^0.1.7",
     "grunt-mocha": "^1.2.0",
     "istanbul": "^0.4.5"
   },
   "devDependencies": {
     "grunt": "^1.0.3",
     "grunt-contrib-htmlmin": "^3.0.0",
+    "grunt-mocha-cli": "^4.0.0",
+    "grunt-run": "^0.8.1",
     "mocha": "^6.0.2"
   },
   "scripts": {
