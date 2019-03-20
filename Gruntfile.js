@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     htmlhint: {
       html: {
         options: {
-                    htmlhintrc: '.htmlhintrc'
+              htmlhintrc: '.htmlhintrc'
             
         },
           src: ['*.html']
