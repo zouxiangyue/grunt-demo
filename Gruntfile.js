@@ -2,18 +2,16 @@ module.exports = function(grunt) {
   grunt.initConfig({
     eslint: {
       options: {
-                configFile: '.eslintrc.json'
+        configFile: '.eslintrc.json'
           
       },
-        target: ['rectangle.js']
-        
+      target: ['*.js'] 
     }
               
   });
 
-    grunt.loadNpmTasks('grunt-eslint');
+  grunt.loadNpmTasks('grunt-eslint');
 
-    grunt.registerTask('default', ['eslint']);
+  grunt.registerTask('default', ['eslint']);
 
 };
-
